@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url("images/ww.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+p {
+    font-size: 22px;
+}
+.navbar-brand {
+    font-family: Georgia, serif;
+    font-size: 26px;
+}
+
+.hero div {
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #1f3a2e;
+    font-family: Georgia, serif;
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.btn-warning {
+    background-color: #c8a96b;
+    border: none;
+    color: #111111;
+}
+
+h1, h2, .navbar-brand {
+    font-family: 'Playfair Display', serif;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
